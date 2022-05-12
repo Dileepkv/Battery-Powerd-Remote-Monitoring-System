@@ -1,11 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T10:46:03.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Ibh9Vhxuik3OrHb4b9US" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T19:18:18.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="8WlqWvwS5RYtrMWSwfuT" version="18.0.3" type="github">
   <diagram id="zRI4lTgcxiIP5Xiha2Jj" name="Page-1">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g_Qg2ycL7-8KMksFr3DI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-1" value="GSM module&amp;nbsp;&lt;br&gt;MCU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="261" width="147" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-4" value="Relay&amp;nbsp;&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="291" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="CdnaZ-ja7DnarhpXAxv2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437" y="321" as="sourcePoint" />
+            <mxPoint x="357" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdnaZ-ja7DnarhpXAxv2-6" target="CdnaZ-ja7DnarhpXAxv2-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="257" y="321" />
+              <mxPoint x="257" y="321" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdnaZ-ja7DnarhpXAxv2-6" target="CdnaZ-ja7DnarhpXAxv2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="380" />
+              <mxPoint x="517" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-6" value="power &lt;br&gt;supply&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-8" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="331" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-10" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="sourcePoint" />
+            <mxPoint x="497" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.phone;" vertex="1" parent="1">
+          <mxGeometry x="650" y="256.6" width="49.5" height="83.9" as="geometry" />
+        </mxCell>
+        <mxCell id="CdnaZ-ja7DnarhpXAxv2-22" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="610" y="180" as="sourcePoint" />
+            <mxPoint x="650" y="240" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
